@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAE4962A1B879BD500D9BDA8 /* Nutech29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE496291B879BD500D9BDA8 /* Nutech29@2x.png */; };
+		DAEA0D3A1B8A11D200E87271 /* editCandidateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEA0D391B8A11D200E87271 /* editCandidateVC.m */; };
+		DAEAD4FE1B8B5EBD00934C02 /* Candidate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEAD4FD1B8B5EBD00934C02 /* Candidate.m */; };
 		DAF922821B860F02000905E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF922811B860F02000905E7 /* main.m */; };
 		DAF922851B860F02000905E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF922841B860F02000905E7 /* AppDelegate.m */; };
 		DAF922881B860F02000905E7 /* Candidate_Select.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAF922861B860F02000905E7 /* Candidate_Select.xcdatamodeld */; };
-		DAF9228B1B860F02000905E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF9228A1B860F02000905E7 /* ViewController.m */; };
 		DAF9228E1B860F02000905E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF9228C1B860F02000905E7 /* Main.storyboard */; };
 		DAF922901B860F02000905E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF9228F1B860F02000905E7 /* Images.xcassets */; };
 		DAF922931B860F02000905E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAF922911B860F02000905E7 /* LaunchScreen.xib */; };
 		DAF9229F1B860F02000905E7 /* Candidate_SelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF9229E1B860F02000905E7 /* Candidate_SelectTests.m */; };
+		DAF922AB1B8610EB000905E7 /* CandidateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF922AA1B8610EB000905E7 /* CandidateCell.m */; };
+		DAF922AE1B861157000905E7 /* CandidateTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF922AD1B861157000905E7 /* CandidateTVC.m */; };
+		DAF922B11B8614B0000905E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF922B01B8614B0000905E7 /* CoreData.framework */; };
+		DAF922B71B861744000905E7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF922B61B861744000905E7 /* MessageUI.framework */; };
+		DAF922BA1B862424000905E7 /* CandidateDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF922B91B862424000905E7 /* CandidateDetailVC.m */; };
+		DAF922C01B864A9F000905E7 /* AddCandidate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF922BF1B864A9F000905E7 /* AddCandidate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +36,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAE496291B879BD500D9BDA8 /* Nutech29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nutech29@2x.png"; sourceTree = "<group>"; };
+		DAEA0D381B8A11D200E87271 /* editCandidateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editCandidateVC.h; sourceTree = "<group>"; };
+		DAEA0D391B8A11D200E87271 /* editCandidateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editCandidateVC.m; sourceTree = "<group>"; };
+		DAEAD4FC1B8B5EBD00934C02 /* Candidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Candidate.h; path = ../Candidate.h; sourceTree = "<group>"; };
+		DAEAD4FD1B8B5EBD00934C02 /* Candidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Candidate.m; path = ../Candidate.m; sourceTree = "<group>"; };
 		DAF9227C1B860F02000905E7 /* Candidate Select.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Candidate Select.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF922801B860F02000905E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAF922811B860F02000905E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAF922831B860F02000905E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DAF922841B860F02000905E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DAF922871B860F02000905E7 /* Candidate_Select.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Candidate_Select.xcdatamodel; sourceTree = "<group>"; };
-		DAF922891B860F02000905E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DAF9228A1B860F02000905E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DAF9228D1B860F02000905E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAF9228F1B860F02000905E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DAF922921B860F02000905E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DAF922981B860F02000905E7 /* Candidate SelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Candidate SelectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF9229D1B860F02000905E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAF9229E1B860F02000905E7 /* Candidate_SelectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Candidate_SelectTests.m; sourceTree = "<group>"; };
+		DAF922A91B8610EB000905E7 /* CandidateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidateCell.h; sourceTree = "<group>"; };
+		DAF922AA1B8610EB000905E7 /* CandidateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidateCell.m; sourceTree = "<group>"; };
+		DAF922AC1B861157000905E7 /* CandidateTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidateTVC.h; sourceTree = "<group>"; };
+		DAF922AD1B861157000905E7 /* CandidateTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidateTVC.m; sourceTree = "<group>"; };
+		DAF922B01B8614B0000905E7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DAF922B61B861744000905E7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DAF922B81B862424000905E7 /* CandidateDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidateDetailVC.h; sourceTree = "<group>"; };
+		DAF922B91B862424000905E7 /* CandidateDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidateDetailVC.m; sourceTree = "<group>"; };
+		DAF922BE1B864A9F000905E7 /* AddCandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCandidate.h; sourceTree = "<group>"; };
+		DAF922BF1B864A9F000905E7 /* AddCandidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCandidate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF922B71B861744000905E7 /* MessageUI.framework in Frameworks */,
+				DAF922B11B8614B0000905E7 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,8 @@
 		DAF922731B860F02000905E7 = {
 			isa = PBXGroup;
 			children = (
+				DAF922B61B861744000905E7 /* MessageUI.framework */,
+				DAF922B01B8614B0000905E7 /* CoreData.framework */,
 				DAF9227E1B860F02000905E7 /* Candidate Select */,
 				DAF9229B1B860F02000905E7 /* Candidate SelectTests */,
 				DAF9227D1B860F02000905E7 /* Products */,
@@ -85,12 +110,10 @@
 			children = (
 				DAF922831B860F02000905E7 /* AppDelegate.h */,
 				DAF922841B860F02000905E7 /* AppDelegate.m */,
-				DAF922891B860F02000905E7 /* ViewController.h */,
-				DAF9228A1B860F02000905E7 /* ViewController.m */,
-				DAF9228C1B860F02000905E7 /* Main.storyboard */,
+				DAF922AF1B86115D000905E7 /* Controlls */,
+				DAF922A81B861000000905E7 /* Views */,
 				DAF9228F1B860F02000905E7 /* Images.xcassets */,
-				DAF922911B860F02000905E7 /* LaunchScreen.xib */,
-				DAF922861B860F02000905E7 /* Candidate_Select.xcdatamodeld */,
+				DAF922B21B8616E2000905E7 /* dataModel */,
 				DAF9227F1B860F02000905E7 /* Supporting Files */,
 			);
 			path = "Candidate Select";
@@ -120,6 +143,43 @@
 				DAF9229D1B860F02000905E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAF922A81B861000000905E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAE496291B879BD500D9BDA8 /* Nutech29@2x.png */,
+				DAF9228C1B860F02000905E7 /* Main.storyboard */,
+				DAF922911B860F02000905E7 /* LaunchScreen.xib */,
+				DAF922A91B8610EB000905E7 /* CandidateCell.h */,
+				DAF922AA1B8610EB000905E7 /* CandidateCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DAF922AF1B86115D000905E7 /* Controlls */ = {
+			isa = PBXGroup;
+			children = (
+				DAF922AC1B861157000905E7 /* CandidateTVC.h */,
+				DAF922AD1B861157000905E7 /* CandidateTVC.m */,
+				DAF922B81B862424000905E7 /* CandidateDetailVC.h */,
+				DAF922B91B862424000905E7 /* CandidateDetailVC.m */,
+				DAF922BE1B864A9F000905E7 /* AddCandidate.h */,
+				DAF922BF1B864A9F000905E7 /* AddCandidate.m */,
+				DAEA0D381B8A11D200E87271 /* editCandidateVC.h */,
+				DAEA0D391B8A11D200E87271 /* editCandidateVC.m */,
+			);
+			name = Controlls;
+			sourceTree = "<group>";
+		};
+		DAF922B21B8616E2000905E7 /* dataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DAEAD4FC1B8B5EBD00934C02 /* Candidate.h */,
+				DAEAD4FD1B8B5EBD00934C02 /* Candidate.m */,
+				DAF922861B860F02000905E7 /* Candidate_Select.xcdatamodeld */,
+			);
+			name = dataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +264,7 @@
 			files = (
 				DAF9228E1B860F02000905E7 /* Main.storyboard in Resources */,
 				DAF922931B860F02000905E7 /* LaunchScreen.xib in Resources */,
+				DAE4962A1B879BD500D9BDA8 /* Nutech29@2x.png in Resources */,
 				DAF922901B860F02000905E7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF922BA1B862424000905E7 /* CandidateDetailVC.m in Sources */,
+				DAF922AE1B861157000905E7 /* CandidateTVC.m in Sources */,
 				DAF922851B860F02000905E7 /* AppDelegate.m in Sources */,
 				DAF922821B860F02000905E7 /* main.m in Sources */,
-				DAF9228B1B860F02000905E7 /* ViewController.m in Sources */,
 				DAF922881B860F02000905E7 /* Candidate_Select.xcdatamodeld in Sources */,
+				DAEAD4FE1B8B5EBD00934C02 /* Candidate.m in Sources */,
+				DAF922AB1B8610EB000905E7 /* CandidateCell.m in Sources */,
+				DAEA0D3A1B8A11D200E87271 /* editCandidateVC.m in Sources */,
+				DAF922C01B864A9F000905E7 /* AddCandidate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +486,7 @@
 				DAF922A41B860F02000905E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAF922A51B860F02000905E7 /* Build configuration list for PBXNativeTarget "Candidate SelectTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +495,7 @@
 				DAF922A71B860F02000905E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
